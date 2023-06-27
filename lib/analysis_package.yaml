@@ -1,0 +1,14 @@
+include: package:taav_analysis/analysis_options.yaml
+
+linter:
+  rules:
+    avoid_print: false
+    deprecated_consistency: true
+    comment_references: true
+    public_member_api_docs: true
+    provide_deprecation_message: true
+    package_prefixed_library_names: true
+    prefer_asserts_with_message: true
+    prefer_asserts_in_initializer_lists: true
+    use_test_throws_matchers: true
+    test_types_in_equals: true
